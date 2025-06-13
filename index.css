@@ -1,7 +1,13 @@
-.grid_div {
-  border: 1px solid black;
+* {
+  box-sizing: border-box;
 }
 .container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.grid_div {
+  flex: 0 0 25%;
+  padding: 10px;
+  border: 1px solid black;
 }

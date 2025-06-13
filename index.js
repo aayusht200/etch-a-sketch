@@ -7,7 +7,7 @@ for (let i = 1; i < 17; i++) {
 function createDiv(name) {
   const div_name = document.createElement("div");
   div_name.classList.add("grid_div");
-  div_name.textContent = "place holder";
+//   div_name.textContent = "place holder";
   container.appendChild(div_name);
   console.log(name);
 }
