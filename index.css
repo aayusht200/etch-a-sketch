@@ -10,6 +10,12 @@ body {
   align-items: center;
   /* background-color: rgb(red, green, blue); */
 }
+#header {
+  display: flex;
+  height: 10vh;
+  flex: 1;
+  gap: 10px;
+}
 .user_input {
   min-height: 3vh;
   width: 20%;
@@ -21,10 +27,9 @@ body {
   flex-wrap: wrap;
   height: 90vh;
   width: 100vw;
+  border: 3px solid gray;
 }
-.container > div {
-  border-radius: 10rem;
-}
+
 .grid_div_default {
   flex: 1 0 calc((100%) / 4);
   /* border: 1px solid black; */

@@ -7,11 +7,11 @@ window.addEventListener("load", () => {
     createDiv(4);
   }
 });
-
 function createDiv(input) {
   const div_name = document.createElement("div");
   div_name.classList.add("grid_div_default");
   div_name.style.flex = `1 0 calc((100%)/${input})`;
+  if (input > 49) div_name.style.borderRadius = "40%";
   div_name.addEventListener("mouseenter", () => {
     div_name.style.backgroundColor = `rgb( ${randomNumber()},${randomNumber()},${randomNumber()})`;
   });
